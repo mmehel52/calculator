@@ -29,7 +29,7 @@ body {
   background-color: rgb(80, 75, 75);
   margin: 8px;
 }
-.op {
+.oper {
   background-color: darkorange;
 }
 .zero {
@@ -39,7 +39,7 @@ body {
 .screen {
   display: grid;
   grid-template-columns: repeat(4, 100px);
-  grid-template-rows: repeat(1, 100px);
+  grid-template-rows: repeat(2, 100px);
   background-color: black;
   margin-bottom: 30px;
 }
@@ -49,14 +49,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(83, 104, 20);
+  background-color: black;
   grid-area: 1 / 1 / 1/ 5;
   border-radius: 2%;
-  margin: 25px;
-  padding: 35px;
+  margin: 0px;
+  padding: 0px;
   justify-content: flex-end;
   align-items: flex-end;
 }
+.answer {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  grid-area: 2/ 1/ 2/ 5;
+  border-radius: 2%;
+  margin: 0px;
+  padding: 0px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -5px;
+}
+
 .up {
   background-color: gray;
 }
