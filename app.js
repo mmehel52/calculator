@@ -12,7 +12,6 @@ bigDiv.addEventListener("click", (e) => {
   } else if (e.target.classList.contains("ac")) {
     result1.innerText = "";
     result2.innerText = "";
-  } else if (e.target.classList.contains("minus")) {
   } else if (e.target.classList.contains("percent")) {
     result1.innerText = result1.innerText / 100;
   } else if (e.target.classList.contains("minus")) {
